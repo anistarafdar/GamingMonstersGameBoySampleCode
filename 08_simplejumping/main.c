@@ -1,7 +1,7 @@
 #include <gb/gb.h>
 #include <stdio.h>
 
-INT16 playerlocation[2]; // stores two INT16 x and y position of player
+UINT16 playerlocation[2]; // stores two UINT16 x and y position of player
 BYTE jumping;
 INT8 gravity = -2;
 INT16 currentspeedY;
